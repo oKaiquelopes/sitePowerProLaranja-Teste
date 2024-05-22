@@ -35,7 +35,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 50%;
+    margin-left: 55%;
 }
 .nav-list ul {
     display: flex;
@@ -731,69 +731,143 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 400px;
     width: 100%;
-    background-color: rgba(52, 51, 51, 1);
+    background-color: #1E1E1E;
 }
-footer h2{
-    font-family: 'Montserrat';
+.conteudo-footer{
+    display: flex;
+    flex-direction: row;
+    max-height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.conteudo-footer-navegacao{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 18%;
+}
+.conteudo-footer-navegacao-contribua{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 25%;
+}
+.conteudo-footer-navegacao h2,
+.conteudo-footer-navegacao-contribua{
+    font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 500;
-    font-size: 1.8rem;
-    color: #FBFBFB;
-
+    font-size: 1.4;
+    color: #FCFAFA;
 }
-.divisaoFooter{
-    border: 5px solid #D88345;
-    width: 40%;
-    margin-top: 2%;
-}
-.contFooter{
-    width: 40%;
-    margin-top: 3%;
-    max-height: auto;
-    align-items: center;
+.conteudo-footer-navegacao ul{
+    list-style: none;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
-.contFooter a,
-.contFooter p{
-    font-family: 'Montserrat';
+.conteudo-footer-navegacao a{
+    font-family: 'Space Grotesk';
     font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #FCFAFA;
     text-decoration: none;
-    color: #FBFBFB;
 }
-.imgFooter{
-    height: 25px;
-    display: flex;
+.conteudo-footer-navegacao h3{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #FCFAFA;
     margin-top: 3%;
 }
-.footerDireitos{
-    font-family: 'Montserrat';
+.conteudo-footer-navegacao-p{
+    font-family: 'Space Grotesk';
     font-style: normal;
-    font-weight: 400;
-    font-size: 0.8rem;
-    text-align: center;
-    color: #FBFBFB;
-    margin-top: 1%;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #FCFAFA;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
-.logo-footer{
+.conteudo-footer-navegacao-contato{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: auto;
+    margin-top: 5%;
+    gap: 10px;
+}
+.conteudo-footer-navegacao-contato-img{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
     max-height: auto;
-    width: 100%;
+    max-width: auto;
+    gap: 5px;
+
 }
-.logo-footer img{
+.conteudo-footer-navegacao-contato-img a{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 15px;
+    color: #FCFAFA;
+}
+.conteudo-footer-navegacao-contribua-p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FCFAFA;
+    margin-top: 3%;
+}
+.conteudo-footer-navegacao-contribua-a{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FCFAFA;
+    text-decoration: none;
+    margin-top: 3%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #D88345;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.divisao-footer{
     display: flex;
-    height: 70px;
-    margin-right: 3%;
-    margin-top: 5%;
+    width: 90%;
+    margin-top: 3%;
+    border: 1px solid #F7FCFE;
+}
+.conteudo-footer-pt2{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-height: auto;
+    margin-top: 1%;
+}
+.conteudo-footer-pt2 p{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 19px;
+    color: #F7FCFE;
+}
+.conteudo-footer-pt2 img{
+    display: flex;
+    height: 60px;
+    margin-left: 60%;
 }
 .cookies-msg{
     width: 80%;
