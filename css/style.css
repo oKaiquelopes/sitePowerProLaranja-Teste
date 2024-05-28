@@ -731,7 +731,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 450px;
     width: 100%;
     background-color: #1E1E1E;
 }
@@ -748,12 +748,14 @@ footer{
     flex-direction: column;
     height: 200px;
     width: 18%;
+    margin-top: 5%;
 }
 .conteudo-footer-navegacao-contribua{
     display: flex;
     flex-direction: column;
     height: 200px;
     width: 25%;
+    margin-top: 5%;
 }
 .conteudo-footer-navegacao h2,
 .conteudo-footer-navegacao-contribua{
@@ -846,7 +848,7 @@ footer{
 .divisao-footer{
     display: flex;
     width: 90%;
-    margin-top: 3%;
+    margin-top: 5%;
     border: 1px solid #F7FCFE;
 }
 .conteudo-footer-pt2{
